@@ -1,1 +1,2 @@
-En este repositorio iré subiendo el código de un proyecto de scrapeo y almacenamiento de estadísticas de tercera feb
+Se le pasa al script el link de un partido de Tercera FEB y devuelve las stats en un fichero CSV
+
