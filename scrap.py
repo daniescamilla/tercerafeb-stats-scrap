@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 # Paso 1: Obtener el contenido HTML (cambia la URL con la página que contiene la tabla)
-url = "https://baloncestoenvivo.feb.es/partido/2417642"
+url = str(input('Introduce la URL de la página: '))
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 
